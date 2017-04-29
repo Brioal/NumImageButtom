@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.brioal.numimagebuttom.MainActivity">
+
+    <com.brioal.view.NumImageButton
+        android:id="@+id/numImageButton1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:imageSrc="@mipmap/ic_launcher"
+        app:numBg="@drawable/round_bg_accent"
+        app:numIndex="11">
+
+    </com.brioal.view.NumImageButton>
+
+    <com.brioal.view.NumImageButton
+        android:id="@+id/numImageButton2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp">
+
+    </com.brioal.view.NumImageButton>
+</LinearLayout>
